@@ -1,0 +1,38 @@
+<!--Create the following table using HTML tags for train time table-->
+<html>
+    <head>
+        <title>Train Time-Table</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th rowspan="2">Name Of Train</th><!--th->Defines a header cell in a table-->
+                <th rowspan="2">Place</th>
+                <th rowspan="2">Destination</th>
+                <th colspan="2">Time</th>
+                <th rowspan="2">Fare</th>
+            </tr><!--tr->Defines a row in a table-->                    
+            <tr><th>Arrival</th><th>Departure</th></tr>
+            <tr>
+                <td>Rajdhani</td><td>Mumbai</td><td>Delhi</td><!--td->defines a cell in a table-->
+                <td>7:30</td><td>8:45</td>
+                <td>Rs.989.00</td>
+            </tr>
+            <tr>
+                <td>Mardras Mail</td><td>Mumbai</td><td>Madras</td>
+                <td>9:00</td><td>10:15</td>
+                <td>Rs.450.00</td>
+            </tr>
+            <tr>
+                <td>Konkan Exp.</td><td>Mumbai</td><td>Manglore</td>
+                <td>13:30</td><td>14:45</td>
+                <td>Rs.756.00</td>
+            </tr>
+            <tr>
+                <td>Deccan Exp.</td><td>Mumbai</td><td>Pune</td>
+                <td>16:00</td><td>17:30</td>
+                <td>Rs.345.00</td>
+            </tr>
+        </table>
+    </body>
+</html>
